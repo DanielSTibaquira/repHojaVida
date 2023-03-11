@@ -339,12 +339,10 @@ border: 1px solid #000000;
     background-color: skyblue;
   }
 
-  /* NEW */
+
+  /* PORTAFOLIO */
 
   .h2Presentacion{
-    /* PRESENTACIÓN */
-
-
 position: absolute;
 width: 246px;
 height: 44px;
@@ -356,7 +354,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 44px;
-/* identical to box height */
 
 text-align: center;
 
@@ -380,36 +377,22 @@ line-height: 38px;
 color: #FFFFFF;
 
   }
-
-body{
-  
-    box-sizing: border-box;
-
-
-background-image: url(../imagenes/iue.jpg);
-background-size: cover;
-background-attachment: fixed;
-  }
-
-  .btnConsultas{
-
-    
+  .boxConsultas{
     position: absolute;
     width: 307px;
     height: 281.52px;
-    left: 117px;
-    top: 1081px;
+    left: 161px;
+    top: 976px;
     
-    background: #2B303A;
+    background: #E0DFD5;
 }
 
 .navConsultas{
-
     position: absolute;
     width: 145px;
     height: 113.64px;
-    left: 187px;
-    top: 1166.23px;
+    left: 204px;
+    top: 1004px;
     
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -418,26 +401,24 @@ background-attachment: fixed;
     line-height: 44px;
     text-align: center;
     
-    color: #FFFFFF;
-    
 }
 
-.btnDisenos{
+.boxDisenos{
     position: absolute;
     width: 307px;
     height: 281.52px;
-    left: 527px;
-    top: 1081px;
+    left: 571px;
+    top: 976px;
     
-    background: #2B303A;
+    background: #E0DFD5;
 }
 
 .navDisenos{
     position: absolute;
     width: 117px;
     height: 113.64px;
-    left: 609px;
-    top: 1166.23px;
+    left: 626px;
+    top: 1004px;
     
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -446,27 +427,25 @@ background-attachment: fixed;
     line-height: 44px;
     text-align: center;
     
-    color: #FFFFFF;
-    
+    color: #000000;    
 }
 
-.btnTalleres{
-
+.boxTalleres{
     position: absolute;
     width: 307px;
     height: 281.52px;
-    left: 117px;
-    top: 1486.48px;
+    left: 161px;
+    top: 1381.48px;
     
-    background: #2B303A;
+    background: #E0DFD5;
 }
 
 .navTalleres{
     position: absolute;
     width: 116px;
     height: 113.64px;
-    left: 188px;
-    top: 1579.46px;
+    left: 205px;
+    top: 1417.23px;
     
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -475,28 +454,25 @@ background-attachment: fixed;
     line-height: 44px;
     text-align: center;
     
-    color: #FFFFFF;
-    
-    
-
+    color: #000000;
 }
 
-.btnRetos{
+.boxRetos{
     position: absolute;
     width: 307px;
     height: 281.52px;
-    left: 527px;
-    top: 1486.48px;
+    left: 571px;
+    top: 1381.48px;
     
-    background: #2B303A;
+    background: #E0DFD5;
 }
 
 .navRetos{
     position: absolute;
     width: 84px;
     height: 113.64px;
-    left: 609px;
-    top: 1579.46px;
+    left: 626px;
+    top: 1417.23px;
     
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -505,28 +481,55 @@ background-attachment: fixed;
     line-height: 44px;
     text-align: center;
     
-    color: #FFFFFF;
-
-}
-
-.h2Presentacion{
-
-    position: absolute;
-    width: 327.6px;
-    height: 60.55px;
-    left: 62px;
-    top: 427px;
+    color: #000000;
     
-color: #000000;
-background: #D1AC00;
 }
 
-.pPresentacion{
+
+
+.portColumna{
+    position: absolute;
+    width: 389px;
+    height: 1470px;
+    left: 1010px;
+    top: 346px;
+    
+    background: #F06543;
+}
+
+.portBoxSobreMi{
+    position: absolute;
+    width: 296px;
+    height: 75.51px;
+    left: 1144px;
+    top: 356.07px;
+
+    background: #313638;
+}
+
+.portH2SobreMi{
+    position: absolute;
+    width: 154px;
+    height: 44.3px;
+    left: 1163px;
+    top: 374px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.portPSobreMi{
     position: absolute;
 width: 340px;
 height: 286.95px;
-left: 70px;
-top: 528px;
+left: 1041px;
+top: 479.91px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -534,6 +537,138 @@ font-weight: 400;
 font-size: 28px;
 line-height: 38px;
 
-color: white;
+color: #000000;
 }
+
+.portH2GitHub{
+    position: absolute;
+    width: 277px;
+    height: 34.23px;
+    left: 1144px;
+    top: 799px;
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.portBoxGitHub{
+    position: absolute;
+    width: 305px;
+    height: 76px;
+    left: 1135px;
+    top: 787px;
+
+    background: #313638;
+}
+
+.portPGitHub{
+    position: absolute;
+    width: 389px;
+    height: 320.18px;
+    left: 1021px;
+    top: 901px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.portBoxNeocities{
+    position: absolute;
+    width: 307px;
+    height: 76px;
+    left: 1133px;
+    top: 1305px;
+
+    background: #313638;
+}
+
+.portH2Neocities{
+    position: absolute;
+    width: 277px;
+    height: 34.23px;
+    left: 1133px;
+    top: 1326px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.portPNeocities{
+    position: absolute;
+    width: 389px;
+    height: 320.18px;
+    left: 1021px;
+    top: 1429px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.portBoxPresentacion{
+    position: absolute;
+    width: 582.71px;
+    height: 76.64px;
+    left: 107px;
+    top: 394px;
+    
+    background: #F09D51;
+}
+
+.portH2Presentacion{
+    position: absolute;
+    width: 437.57px;
+    height: 55.69px;
+    left: 179.93px;
+    top: 404.12px;
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.portPPresentacion{
+    position: absolute;
+    width: 835px;
+    height: 197px;
+    left: 121px;
+    top: 522px;
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    
+    color: #000000;
+    
+}
+
+
 

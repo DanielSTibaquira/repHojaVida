@@ -8,7 +8,6 @@
     <title>Portafolio</title>
   </head>
   <body>
-    <!-- Encabezado -->
     <section class="recEncabezado">
       <h1>DANIEL SUÁREZ TIBAQUIRA</h1>
       <h2 class="h2Oficio">Ingeniero informático</h2>
@@ -16,10 +15,10 @@
       <div class="fig"></div>
     </section>
 
-    <!-- Caja Experiencia -->
     <section>
-      <h2 class="h2Presentacion">PRESENTACIÓN</h2>
-      <p class="pPresentacion">
+      <div class="portBoxPresentacion"></div>
+      <h2 class="portH2Presentacion">PRESENTACIÓN</h2>
+      <p class="portPPresentacion">
         Ingeniero informático con especialidad en programación. Con más de 3
         años de experiencia ofreciendo mis servicios profesionales a empresas de
         tecnología e innovación. Gracias a mis conocimientos de seguridad de
@@ -31,94 +30,65 @@
 
     <!--  Columna -->
     <section>
-      <div class="columna"></div>
-      <!--  Sobre Mi -->
-      <h2 class="h2sobreMi">SOBRE MI</h2>
-      <p class="pSobreMi">
-        Ingeniero informático con especialidad en programación. Con más de 3
-        años de experiencia ofreciendo mis servicios profesionales a empresas de
-        tecnología e innovación.
-      </p>
+      <section>
+        <div class="portColumna"></div>
+        <div class="portBoxSobreMi"></div>
+        <h2 class="portH2SobreMi">Sobre Mi</h2>
+        <p class="portPSobreMi">Ingeniero informático con especialidad en programación. Con más de 3 años de experiencia ofreciendo
+        mis servicios profesionales a empresas de tecnología e innovación.</p>
+      </section>
 
-      <!--  Competencias -->
+        <section>
+          <div class="portBoxGitHub"></div>
+          <h2 class="portH2GitHub">GitHub</h2>
+          <P class="portPGitHub">Link a GitHub: <a href="https://github.com/DanielSTibaquira/repHojaVida">Clik Aqui</a></P>
+        </section>
 
-      <h2 class="h2Competencias">COMPETENCIAS</h2>
-      <ul class="pCompetencias">
-        <li>Ciberseguridad</li>
-        <li>Administración en la nube o Cloud Management</li>
-        <li>Desarrollo de aplicaciones</li>
-        <li>Lenguajes de programación</li>
-        <li>Gestión de bases de datos</li>
-      </ul>
 
-      <h2 class="h2Idiomas">IDIOMAS</h2>
-      <ul class="pIdiomas">
-        <li>Español: nivel avanzado</li>
-        <li>Inglés: nivel avanzado</li>
-        <li>Francés: nivel básico</li>
-      </ul>
-
-    
+        <section>
+          <div class="portBoxNeocities"></div>
+          <h2 class="portH2Neocities">NeoCities</h2>
+          <p class="portPNeocities"> Link a Neocities: <a href="https://dantibaquira.neocities.org/">Click Aqui</a></p>
+        </section>       
     </section>
 
+    
     <section>
-      <ul class="navConsultas btnConsultas">Consulta
-        <li><a href="https://dantibaquira.neocities.org/hojaVida">HojaVida</a></li>
-        <li><a href="http://stackoverflow.com/questions">Consulta2</a></li>
+      <div class="boxConsultas"></div>
+      <ul class="navConsultas">Consulta
+        <li><a href="https://dantibaquira.neocities.org/hojaVida">Hoja Vida</a></li>
+        <li><a href="https://github.com/DanielSTibaquira/repHojaVida">GitHub</a></li>
         <li><a href="http://stackoverflow.com/questions">Consulta3</a></li>
       </ul>
+
     </section>
     <section>
-      <ul class="navDisenos btnDisenos">Diseños
+      <div class="boxDisenos"></div>
+      <ul class="navDisenos">Diseños
         <li><a href="https://www.figma.com/file/bxXQhHdEZbQZ4901zFbjvY/WireFrame18_02?node-id=0%3A1&t=B0j1ELNj2zW5h9jZ-0">Figma</a></li>
-        <li><a href="http://stackoverflow.com/questions">Diseños2</a></li>
-        <li><a href="http://stackoverflow.com/questions">Diseños3</a></li>
+        <li><a href="http://stackoverflow.com/questions">Diseño 2</a></li>
+        <li><a href="http://stackoverflow.com/questions">Diseño 3</a></li>
 
       </ul>
     </section>
     <section>
-      <ul class="navTalleres btnTalleres">Talleres
-        <li><a href="http://stackoverflow.com/questions">Talleres1</a></li>
-        <li><a href="http://stackoverflow.com/questions">Talleres2</a></li>
-        <li><a href="http://stackoverflow.com/questions">Talleres3</a></li>
+      <div class="boxTalleres"></div>
+      <ul class="navTalleres">Talleres
+        <li><a href="https://dantibaquira.neocities.org/hojaVida">Taller 1</a></li>
+        <li><a href="http://stackoverflow.com/questions">Taller 2</a></li>
+        <li><a href="http://stackoverflow.com/questions">Taller 3</a></li>
 
       </ul>
     </section>
     <section>
-      <ul class="navRetos btnRetos">Retos
-        <li><a href="http://stackoverflow.com/questions">Retos1</a></li>
-        <li><a href="http://stackoverflow.com/questions">Retos2</a></li>
-        <li><a href="http://stackoverflow.com/questions">Retos3</a></li>
+      <div class="boxRetos"></div>
+      <ul class="navRetos">Retos
+        <li><a href="http://stackoverflow.com/questions">Reto 1</a></li>
+        <li><a href="http://stackoverflow.com/questions">Reto 2</a></li>
+        <li><a href="http://stackoverflow.com/questions">Reto 3</a></li>
 
       </ul>
     </section>
-    
-    <!-- Botones-->
-    <!-- <section>
-  <div class="btnConsultas"></div>
-   <nav class="navConsultas">Consultas</nav> 
-
-    <input list="Consultas" name="Consultas" class="navConsultas" value="Consulta"/></label>
-    <datalist id="Consultas" >
-      <option value="Consulta 1">
-      <option value="Consulta 2">
-      <option value="Consulta 3">
-      <option value="Consulta 4">
-      <option value="Consulta 5">
-    </datalist>
-
-  <div class="btnDisenos"></div>
-  <nav class="navDisenos">Diseños</nav>
-
-  <div class="btnTalleres"></div>
-  <nav class="navTalleres">Talleres</nav>
-
-  <div class="btnRetos"></div>
-  <nav class="navRetos">Retos</nav>
-
-</section>
- -->
-    <!-- Pie de Pagina-->
 
     <footer>
       <div class="footer"></div>
@@ -129,4 +99,4 @@
   </body>
 </html>
 
-<!-- <li class="btnConsultas"><a href="http://stackoverflow.com/questions">Talleres 1</a></li> -->
+
