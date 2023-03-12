@@ -1,0 +1,9 @@
+.sopaDeLetras{
+    position: absolute;
+    width: 579px;
+    height: 680px;
+    left: 57px;
+    top: 46px;
+
+    background: url(/imagenes/sopaLetras.png);
+}

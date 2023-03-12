@@ -1,0 +1,224 @@
+h1{
+    position: absolute;
+    width: 971px;
+    height: 97px;
+    left: 176px;
+    top: 147px;
+
+    font-family: 'Gorditas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F9BA00;
+
+    border: 5px solid #000000;
+}
+
+body{
+    position: absolute;
+    width: 1440px;
+    height: 1704px;
+    left: 0px;
+    top: 0px;
+
+    background: #222E54;
+}
+
+.logo{
+    position: absolute;
+    width: 263px;
+    height: 73px;
+    left: 67px;
+    top: 43px;
+
+    background: url(/imagenes/LogoSnackConference.png);
+}
+
+.h2AcercaDe{
+    position: absolute;
+    width: 368px;
+    height: 49px;
+    left: 39px;
+    top: 298px;
+
+    font-family: 'Gorditas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F9BA00;
+
+    border: 5px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pAcercaDe{
+    position: absolute;
+    width: 639px;
+    height: 524px;
+    left: 54px;
+    top: 378px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.boxAcercaDe{
+    position: absolute;
+    width: 672px;
+    height: 551px;
+    left: 31px;
+    top: 367px;
+    
+    background: #A8201A;
+    border-radius: 30px;
+}
+
+.pictureSnack{
+    position: absolute;
+    width: 648px;
+    height: 365px;
+    left: 748px;
+    top: 368px;
+
+background: url(/imagenes/comidaSnack.jpg);
+}
+
+.boxPictureSnack{
+    position: absolute;
+    width: 651px;
+    height: 456px;
+    left: 748px;
+    top: 322px;
+
+    background: #2E3B65;
+}
+
+.h2Importancia{
+    position: absolute;
+    width: 480px;
+    height: 49px;
+    left: 886px;
+    top: 852px;
+
+    font-family: 'Gorditas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F9BA00;
+
+    border: 5px solid #000000;
+}
+
+.boxImportancia{
+    position: absolute;
+    width: 461px;
+    height: 456px;
+    left: 895px;
+    top: 924px;
+
+    background: #A8201A;
+    border-radius: 30px;
+}
+
+.pImportancia{
+    position: absolute;
+    width: 396px;
+    height: 361px;
+    left: 926px;
+    top: 940px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.pictureConferencia{
+    position: absolute;
+    width: 762px;
+    height: 475px;
+    left: 31px;
+    top: 975px;
+
+    background: url(/imagenes/snackConferencia.jpg);
+}
+
+.boxPictureConferencia{
+    position: absolute;
+    width: 762px;
+    height: 530px;
+    left: 31px;
+    top: 949px;
+
+    background: #2E3B65;
+}
+
+.pFecha{
+    position: absolute;
+    width: 811px;
+    height: 78px;
+    left: 317px;
+    top: 1562px;
+
+    font-family: 'Gorditas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #F5C12A;
+
+    border: 3px solid #000000;
+}
+
+/* Pie de Página */
+.boxPiePagina{
+    position: absolute;
+    width: 1440px;
+    height: 184px;
+    left: 0px;
+    top: 1704px;
+    
+    background: #143642;
+}
+
+.pPiePagina{
+    position: absolute;
+    width: 1114px;
+    height: 66px;
+    left: 123px;
+    top: 1763px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #DAD2D8;
+}

@@ -329,7 +329,7 @@ height: 200px;
 left: 1110px;
 top: 70px;
 
-background: url(imagenes/danielFoto.jpg);
+background: url(/imagenes/danielFoto.jpg);
 border: 1px solid #000000;
 }
 
